@@ -1,8 +1,8 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_INIT(libantlr3c, 3.4, jimi@temporal-wave.com)
-AC_PREREQ(2.60)
+AC_INIT([libantlr3c],[3.4],[jimi@temporal-wave.com])
+AC_PREREQ([2.72])
 AC_COPYRIGHT([
  (The "BSD licence")
  Copyright (c) 2005-2009 Jim Idle, Temporal Wave LLC
@@ -55,7 +55,7 @@ AM_INIT_AUTOMAKE(foreign)
 AC_LANG(C)
 AC_PROG_CC([xlc aCC gcc cc])
 AM_MAINTAINER_MODE
-AM_PROG_LIBTOOL
+LT_INIT
 
 AC_CANONICAL_BUILD
 AC_CANONICAL_HOST
